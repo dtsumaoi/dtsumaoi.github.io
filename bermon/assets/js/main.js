@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
 
     jQuery(window).scroll(function () {
         var top = jQuery(document).scrollTop();
-        var height = 300;
+        var height = 200;
         //alert(batas);
 
         if (top > height) {
@@ -125,6 +125,13 @@ jQuery(document).ready(function ($) {
     $('.scrolldown a').bind('click', function () {
         $('html , body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 160
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    $('.scrolldownabout a').bind('click', function () {
+        $('html , body').stop().animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });

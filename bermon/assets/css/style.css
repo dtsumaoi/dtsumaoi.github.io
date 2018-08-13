@@ -32,7 +32,7 @@ html, body {
     width: 100%;
     overflow: hidden !important;
 }
-
+    
 .loaded {
     width: 60px;
     height: 60px;
@@ -94,31 +94,6 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     outline: none;
 }
 
-.form-control {
-    display: inline-block;
-    height: 38px;
-    padding: 10px 2px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #000;
-    background-color: #fff;
-    background-image: none;
-    border: 0px solid #ccc;
-    border-radius: 0px;
-    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .00);
-    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .00);
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    border-bottom: 2px solid #ddd;
-}
-
-.form-control:focus {
-    border-color: #bcefeb;
-    outline: 0;
-    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075), 0 0 0px rgba(102, 175, 233, .6);
-}
 
 h1, h2, h3 {
     font-weight: 300;
@@ -152,7 +127,7 @@ h3 {
     font-family: 'source_sans_proregular';
     font-size: 1.714rem;
     line-height: 2.5rem;
-    color: #fff;
+    color: #363639;
 }
 
 h4 {
@@ -556,7 +531,7 @@ input::-ms-input-placeholder {
 }
 
 /* navbar section */
-
+ 
 .menu-scroll {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -656,20 +631,6 @@ input::-ms-input-placeholder {
     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);
     box-shadow: 0 0px 0px
 }
-
-/*.dropdown-menu .navbar-form .form-group input[type="text"]{
-    background-color:rgba(34, 61, 97, 0.68);
-    border: 1px solid #e74c3c;
-    color:#e74c3c;
-    width: 300px;
-}
-.dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
-    color: #e74c3c;
-    opacity: 1; 
-}
-.dropdown-menu .navbar-form {
-    margin-right: -30px;
-}*/
 
 .scrolldown {
     position: absolute;
@@ -960,8 +921,8 @@ button.btn-md:hover {
     top: 10%;
     width: 80%;
     height: 80%;
-    background: rgba(231, 76, 60, 0.6);
-    color: #fff;
+    background: rgba(198, 210, 198, 0.6);
+    color: #363639;
     padding: 20px;
     opacity: 0;
     transition: 0.6s;
@@ -993,49 +954,6 @@ button.btn-md:hover {
     background: #fff;
 }
 
-/*========================================================================
-                    About Section Css
-==========================================================================*/
-
-.about {
-    background: #f4f5f9;
-}
-
-.main_about_area {
-    overflow: hidden;
-}
-
-.slick-active {
-    outline: none;
-}
-
-.single_about_text {
-    background: #fff;
-    position: absolute;
-    right: -15%;
-    top: 85px;
-    width: 100%;
-    z-index: 9;
-    padding: 10% 20%;
-}
-
-.single_about_text .s_about_icon {
-    background: #e74c3c;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: #fff;
-    transform: rotate(45deg);
-    margin: 30px auto;
-}
-
-.single_about_text .s_about_icon i {
-    transform: rotate(-45deg);
-}
-
-.single_about_right_img {
-    position: relative;
-}
 
 /*=====================================================================
                     counter section css
