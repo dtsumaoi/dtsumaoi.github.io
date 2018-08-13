@@ -94,7 +94,6 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     outline: none;
 }
 
-
 h1, h2, h3 {
     font-weight: 300;
     margin: 0;
@@ -763,17 +762,6 @@ input::-ms-input-placeholder {
 }
 
 /*==================================================================
-            History section Style
-====================================================================*/
-
-.main_history {}
-
-.main_history .single_history_content .head_title h2 {
-    border-left: 6px solid #e74c3c;
-    padding-left: 30px;
-}
-
-/*==================================================================
             about section Style
 ====================================================================*/
 
@@ -838,7 +826,7 @@ input::-ms-input-placeholder {
     font-family: 'Gadugi';
 }
 /*======================================================================
-                    portfolio section css
+                    products section css
 ========================================================================*/
 
 .btn-md:active, .btn-md.active {
@@ -874,11 +862,11 @@ button.btn-md:hover {
     border: 0px solid #f4720a;
 }
 
-.portfolio .toolbar {
+.products .toolbar {
     margin-bottom: 50px;
 }
 
-#portfoliowork {
+#productswork {
     margin: 1rem 0;
     -webkit-column-count: 4;
     -moz-column-count: 4;
@@ -907,11 +895,11 @@ button.btn-md:hover {
     width: 100%;
 }
 
-.single_portfolio {
+.single_products {
     position: relative;
 }
 
-.single_portfolio:hover .grid_item_overlay {
+.single_products:hover .grid_item_overlay {
     opacity: 1;
 }
 
@@ -1300,7 +1288,7 @@ li .single_team_text p {
 }
 
 /*=================================================================
-                            Blog Section
+                            Equipments Section
 ===================================================================*/
 
 .blog {
@@ -1308,7 +1296,7 @@ li .single_team_text p {
 }
 
 .main_blog_content .single_blog_area .single_blog_text {
-    background: #e74e3e;
+    background: #C6D2C6;
     padding: 70px 30px 70px 50px;
     position: relative;
 }

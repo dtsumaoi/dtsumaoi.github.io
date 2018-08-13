@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
 
 
     // Portfoliowork init
-    jQuery('#portfoliowork').mixItUp({
+    jQuery('#productswork').mixItUp({
         selectors: {
             target: '.tile',
             filter: '.filter'
