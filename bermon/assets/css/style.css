@@ -315,7 +315,7 @@ Separator
     height: 4px;
     width: 40px;
     margin: 10px 0px;
-    background: #F0B4B4;
+    background: #FFDEDC;
     position: relative;
 }
 
@@ -324,14 +324,14 @@ Separator
     height: 2px;
     width: 40px;
     margin: 20px auto;
-    background: #F0B4B4;
+    background: #FFDEDC;
 }
 
 .separator4 {
     height: 2px;
     width: 30px;
     margin: 20px 0px;
-    background: #F0B4B4;
+    background: #FFDEDC;
 }
 
 .divider {
@@ -703,8 +703,8 @@ input::-ms-input-placeholder {
 }
 
 .main_home {
-    padding-top: 150px;
-    padding-bottom: 130px;
+    padding-top: 120px;
+    padding-bottom: 110px;
     display: block;
 }
 
@@ -838,7 +838,7 @@ input::-ms-input-placeholder {
 
 button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
     outline: none;
-    color: #e74c3c;
+    color: #93939B;
 }
 
 button.btn-md {
@@ -846,20 +846,20 @@ button.btn-md {
     color: #444;
     letter-spacing: 1px;
     margin: 0;
-    font-size: 0.8125rem;
+    font-size: .8125rem;
     border-radius: 0px;
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
-    border: 0px solid #e74c3c;
-    font-family: 'montserratregular';
+    border: 0px solid #AAB7AE;
+    font-family: 'Gadugi';
 }
 
 button.btn-md:hover {
     background-color: transparent;
-    color: #e74c3c;
+    color: #AAB7AE;
     text-decoration: none;
-    border: 0px solid #f4720a;
+    border: 0px solid #93939B;
 }
 
 .products .toolbar {
@@ -867,10 +867,9 @@ button.btn-md:hover {
 }
 
 #productswork {
-    margin: 1rem 0;
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -webkit-column-count: 7;
+    -moz-column-count: 7;
+    column-count: 7;
     -webkit-column-gap: 0rem;
     -moz-column-gap: 0rem;
     column-gap: 0rem;
@@ -909,12 +908,12 @@ button.btn-md:hover {
     top: 10%;
     width: 80%;
     height: 80%;
-    background: rgba(198, 210, 198, 0.6);
+    background: rgba(198, 210, 198, .85);
     color: #363639;
     padding: 20px;
     opacity: 0;
     transition: 0.6s;
-    padding-top: 35%;
+    padding-top: 10%;
     z-index: 99;
 }
 
@@ -930,7 +929,7 @@ button.btn-md:hover {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    text-align: center;
+    text-align: center; 
     border: 1px solid #fff;
     color: #fff;
     display: inline-block;
@@ -938,8 +937,8 @@ button.btn-md:hover {
 }
 
 .grid_item_overlay a:hover i {
-    color: #e74c3c;
-    background: #fff;
+    color: #F1B5B5;
+    background: #AAB7AE ;
 }
 
 
@@ -1249,18 +1248,18 @@ li .single_team_text p {
 }
 
 /*====================================================================
-                        clogo section css
+                        projects section css
 ======================================================================*/
 
-.clogo {
-    background: #f4f5f9;
+.projects {
+    background: #FFF3F2;
 }
 
-.main_clogo {
+.main_projects {
     overflow: hidden;
 }
 
-.main_clogo a {
+.main_projects a {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -1274,7 +1273,7 @@ li .single_team_text p {
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
 }
 
-.main_clogo img {
+.main_projects img {
     flex-shrink: 0;
     -webkit-flex-shrink: 0;
     max-width: 100%;
