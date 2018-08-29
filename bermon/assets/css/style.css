@@ -126,7 +126,7 @@ h3 {
     font-family: 'source_sans_proregular';
     font-size: 1.714rem;
     line-height: 2.5rem;
-    color: #363639;
+    color: #D8DEDA;
 }
 
 h4 {
@@ -703,8 +703,8 @@ input::-ms-input-placeholder {
 }
 
 .main_home {
-    padding-top: 120px;
-    padding-bottom: 110px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     display: block;
 }
 
@@ -1300,11 +1300,11 @@ li .single_team_text p {
 ===================================================================*/
 
 .blog {
-    background: #f4f5f9;
+    background: #C6D2C6;
 }
 
 .main_blog_content .single_blog_area .single_blog_text {
-    background: #C6D2C6;
+    background: #93939B ;
     padding: 70px 30px 70px 50px;
     position: relative;
 }
@@ -1317,7 +1317,7 @@ li .single_team_text p {
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-right: 30px solid #e74e3e;
+    border-right: 30px solid #F1B5B5;
     ;
     border-bottom: 30px solid transparent;
 }
@@ -1331,7 +1331,7 @@ li .single_team_text p {
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-left: 30px solid #e74e3e;
+    border-left: 30px solid #F1B5B5;
     ;
     border-bottom: 30px solid transparent;
 }
@@ -1376,6 +1376,10 @@ li .single_team_text p {
 .contact_info_content h4 {
     margin: 0;
     padding: 0;
+}
+
+#email{
+    text-transform: lowercase;
 }
 
 .single_contant_left {
