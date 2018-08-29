@@ -130,7 +130,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'open_sanssemibold';
+    font-family: 'source_sans_proregular';
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -830,6 +830,7 @@ input::-ms-input-placeholder {
 ========================================================================*/
 
 .btn-md:active, .btn-md.active {
+    font-size: 1.125rem;
     background-image: none;
     outline: 0;
     -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
@@ -856,6 +857,7 @@ button.btn-md {
 }
 
 button.btn-md:hover {
+    font-size: 1.125rem;
     background-color: transparent;
     color: #AAB7AE;
     text-decoration: none;
@@ -900,6 +902,13 @@ button.btn-md:hover {
 
 .single_products:hover .grid_item_overlay {
     opacity: 1;
+}
+
+.grid_item_overlay h3{
+    font-family: 'source_sans_proregular';
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+    color: #363639;
 }
 
 .grid_item_overlay {
