@@ -869,9 +869,9 @@ button.btn-md:hover {
 }
 
 #productswork {
-    -webkit-column-count: 7;
-    -moz-column-count: 7;
-    column-count: 7;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
     -webkit-column-gap: 0rem;
     -moz-column-gap: 0rem;
     column-gap: 0rem;
@@ -902,13 +902,6 @@ button.btn-md:hover {
 
 .single_products:hover .grid_item_overlay {
     opacity: 1;
-}
-
-.grid_item_overlay h3{
-    font-family: 'source_sans_proregular';
-    font-size: 1.125rem;
-    line-height: 2.5rem;
-    color: #363639;
 }
 
 .grid_item_overlay {
