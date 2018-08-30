@@ -1,12 +1,3 @@
-/*
-Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
-*/
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 html, body {
     background-color: #fff;
     font-size: 13px;
@@ -90,10 +81,6 @@ img {
     max-width: 100%;
 }
 
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    outline: none;
-}
-
 h1, h2, h3 {
     font-weight: 300;
     margin: 0;
@@ -137,17 +124,6 @@ h4 {
     text-transform: uppercase;
 }
 
-/*h5 {
-    font-size: 1.125rem;
-    margin-bottom: 1rem;
-    color:#223d61;
-    text-transform: uppercase;
-}
-h6 {
-    font-size: 1rem;
-    margin-bottom: .9rem;
-}*/
-
 p {
     line-height: 2rem;
     font-size: 0.875rem;
@@ -157,11 +133,8 @@ p:last-child {
     margin-bottom: 0px;
 }
 
-/*.home-wrap h1,*/
-
 .home-wrap h2, .home-wrap h3, .home-wrap h4, .home-wrap h5, .home-wrap p {
     color: #ffffff;
-    /*font-family: 'roboto', sans-serif;*/
 }
 
 .textwhite {
@@ -216,11 +189,6 @@ section .subtitle h5 {
     font-size: 1.3rem;
 }
 
-.parallax-section {
-    max-width: 100%;
-    color: #ffffff;
-}
-
 section .title-half h2 {
     font-size: 3rem;
     line-height: 4rem;
@@ -248,17 +216,6 @@ ul {
     width: 100%;
     height: 100%;
 }
-
-/*.map-overlay {
-    background-color: rgba(255, 114, 0, 0.75);
-    width: 100%;
-    height:auto;
-}
-.video_overlay {
-    background-color: rgba(41, 39, 34, 0.75);
-    width: 100%;
-    height: auto;
-}*/
 
 .no-padding {
     padding: 0 !important;
@@ -331,7 +288,7 @@ Separator
     height: 2px;
     width: 30px;
     margin: 20px 0px;
-    background: #FFDEDC;
+    background: #836363 ;
 }
 
 .divider {
@@ -340,10 +297,6 @@ Separator
     width: 100%;
     overflow: hidden;
 }
-
-/*section:nth-of-type(odd) {
-    background-color: #F9F9F9;
-}*/
 
 /*
 Button
@@ -722,7 +675,7 @@ input::-ms-input-placeholder {
 }
 
 /*==================================================================
-            Feature section Style
+            Feature Section Style
 ====================================================================*/
 
 .main_feature {}
@@ -762,7 +715,7 @@ input::-ms-input-placeholder {
 }
 
 /*==================================================================
-            about section Style
+            About Section Style
 ====================================================================*/
 
 .main_service .head_title {
@@ -826,7 +779,7 @@ input::-ms-input-placeholder {
     font-family: 'Gadugi';
 }
 /*======================================================================
-                    products section css
+                    Products Section Style
 ========================================================================*/
 
 .btn-md:active, .btn-md.active {
@@ -887,7 +840,6 @@ button.btn-md:hover {
 .scale-anm {
     margin: 0px;
     width: 100%;
-    /*margin-bottom: -6px;*/
 }
 
 .tile img {
@@ -919,12 +871,9 @@ button.btn-md:hover {
     z-index: 99;
 }
 
-.g_overlay_1 {
-    padding-top: 16%;
-}
-
-.g_overlay_2 {
-    padding-top: 85%;
+.grid_item_overlay h3{
+    font-weight: bold;
+    color: #363639; 
 }
 
 .grid_item_overlay a i {
@@ -943,314 +892,8 @@ button.btn-md:hover {
     background: #AAB7AE ;
 }
 
-
-/*=====================================================================
-                    counter section css
-=======================================================================*/
-
-.counter {
-    background: url(../images/counterbg.jpg) no-repeat top center;
-    background-size: cover;
-}
-
-.counter .main_counter_area {
-    padding: 80px 20px;
-}
-
-.main_counter_area .single_counter h2 {
-    color: #fff;
-    font-size: 2.8125rem;
-}
-
-.main_counter_area .single_counter i {
-    color: #fff;
-    font-size: 1.875rem;
-    display: inline-block;
-    border: 1px solid #fff;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-.main_counter_area .single_counter h4 {
-    color: #fff;
-    font-size: 0.8125rem;
-    text-transform: lowercase;
-}
-
-/* Pricing2 Section */
-
-.main_pricing_area {
-    overflow: hidden;
-}
-
-.single_pricing {
-    text-align: center;
-    margin-top: 20px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-}
-
-.single_pricing:hover {
-    box-shadow: 0px 1px 10px 1px #ccc;
-}
-
-.pricing_business .pricing_head {
-    background: #e74c3c;
-}
-
-.pricing_business .pricing_head .p_r {
-    color: #e74c3c;
-}
-
-.pricing_business .pricing_head h3 {
-    color: #fff;
-}
-
-.pricing_business .btn-md {
-    background: #e74c3c;
-}
-
-.pricing_head {
-    padding: 30px 0px;
-    background: #999999;
-    position: relative;
-    height: 200px;
-}
-
-.pricing_head h3 {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 24px;
-}
-
-.pricing_head .pricing_price {
-    background: #fff;
-    position: absolute;
-    left: 30%;
-    bottom: -30%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    padding: 30px 0px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px rgba(244, 245, 249, 0.3);
-}
-
-.pricing_head .pricing_price .p_r {
-    font-family: 'source_sans_probold';
-    font-size: 2.822rem;
-}
-
-.pricing_head .pricing_price .m_t {
-    font-family: 'source_sans_proregular';
-    font-size: 0.941rem;
-}
-
-.pricing_body {
-    background: #f4f5f9;
-    padding: 80px 0px 30px 0px;
-}
-
-.single_pricing ul {}
-
-.single_pricing ul li {
-    line-height: 45px;
-    height: 45px;
-    font-size: 18px;
-    font-family: 'open_sanssemibold';
-}
-
-.single_pricing a {
-    margin-top: 30px;
-}
-
-/*video section css*/
-
-/*.video{
-    background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;
-}
-.video .main_video{
-    padding: 220px 0px 160px 0px;
-    overflow: hidden;
-}
-.video .icon{}
-.video .icon h3{
-    color:#fff;
-    margin-top:30px;
-    margin-bottom: 0px;
-}*/
-
-/*about section css*/
-
-/* Team section css */
-
-.main_team_area {
-    background: url(../images/teambg.jpg) no-repeat scroll top center;
-    background-size: cover;
-    position: relative;
-    height: 650px;
-}
-
-.main_team_area:before {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    background: url(../images/teambg2.png) no-repeat bottom center;
-}
-
-.main_team ul li {
-    text-align: center;
-}
-
-.main_team ul li:nth-child(1) {
-    width: 15%;
-    display: inline-block;
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    left: 1%;
-    top: 96%;
-}
-
-.main_team ul li:nth-child(2) {
-    width: 15%;
-    display: inline-block;
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    left: 19%;
-    top: 85%;
-}
-
-.main_team ul li:nth-child(3) {
-    width: 15%;
-    display: inline-block;
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    left: 37%;
-    top: 87%;
-}
-
-.main_team ul li:nth-child(4) {
-    width: 15%;
-    display: inline-block;
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    left: 55%;
-    top: 97%;
-}
-
-.main_team ul li:nth-child(5) {
-    width: 15%;
-    display: inline-block;
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    left: 73%;
-    top: 94%;
-}
-
-.main_team ul li .single_team_img img {
-    width: 60px;
-    height: 60px;
-    margin: 20px auto;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.65);
-}
-
-li:hover .single_team_img img {
-    transform: scale(1.08);
-}
-
-li:hover .single_team_text {
-    opacity: 1;
-}
-
-li .single_team_text {
-    padding: 10px 20px;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.6s;
-    text-align: center;
-    display: block;
-    height: 80px;
-}
-
-li .single_team_text h4 {
-    margin-bottom: .0rem;
-    display: inline-block;
-    text-transform: none;
-    color: #e74c3c;
-}
-
-li .single_team_text p {
-    color: #fff;
-}
-
-/* Carousel */
-
-.testimonial {
-    background: url(../images/testbg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.main_testimonial {
-    color: #fff;
-}
-
-.main_testimonial .single_testimonial i {
-    color: #fff;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding: 2px;
-}
-
-.main_testimonial .single_testimonial p {
-    color: #fff;
-    letter-spacing: .03rem;
-}
-
-.main_testimonial .single_testimonial .single_test_author {
-    margin-bottom: 40px;
-    display: inline-block;
-}
-
-.main_testimonial .single_testimonial .single_test_author h4 {
-    color: #fff;
-    margin-bottom: 0px;
-    font-size: 1rem;
-}
-
-.main_testimonial .single_testimonial .single_test_author h4 span {
-    font-family: 'ralewayregular';
-}
-
-.main_testimonial .single_testimonial .single_test_author p {
-    color: #fff;
-}
-
-.main_testimonial .owl-theme .owl-dots .owl-dot span {
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    transform: rotate(0deg);
-}
-
 /*====================================================================
-                        projects section css
+                        Projects Section Style
 ======================================================================*/
 
 .projects {
@@ -1289,7 +932,7 @@ li .single_team_text p {
 }
 
 /*=================================================================
-                            Equipments Section
+                    Equipments Section Style
 ===================================================================*/
 
 .blog {
@@ -1344,7 +987,9 @@ li .single_team_text p {
     height: 100%;
 }
 
-/*contact section css*/
+/*=================================================================
+                    Contacts Section Style
+===================================================================*/
 
 .contact {
     background: #f4f5f9;
@@ -1386,33 +1031,8 @@ li .single_team_text p {
     overflow: hidden;
 }
 
-/*====================================================================
-                        Trail Section 
-======================================================================*/
-
-.main_trial_area {
-    background: url(../images/trailbg.jpg) no-repeat top center;
-    overflow: hidden;
-    background-size: cover;
-    color: #fff;
-}
-
-.main_trial h2 {
-    text-transform: none;
-    font-family: 'open_sansregular';
-}
-
-.main_trial h2 span {
-    font-family: 'open_sansbold';
-}
-
-.main_trial h4 {
-    font-family: 'open_sansregular';
-    text-transform: none;
-}
-
 /*=================================================================
-                        footer section
+                        Footer Section Style
 ===================================================================*/
 
 .footer {
