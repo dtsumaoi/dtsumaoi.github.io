@@ -74,17 +74,7 @@ jQuery(document).ready(function ($) {
         }
 
     });
-
-    $('.clients-img').magnificPopup({
-        type: 'image',
-        verticalFit: true,
-        horizontalFit: true,
-        gallery: {
-            enabled: true
-        }
-
-    });
-
+    
     // main-menu-scroll
 
     jQuery(window).scroll(function () {
