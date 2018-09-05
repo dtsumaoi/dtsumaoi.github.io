@@ -67,21 +67,22 @@ jQuery(document).ready(function ($) {
 
     $('.portfolio-img').magnificPopup({
         type: 'image',
+        verticalFit: true,
+        horizontalFit: true,
         gallery: {
             enabled: true
         }
+
     });
 
+    $('.clients-img').magnificPopup({
+        type: 'image',
+        verticalFit: true,
+        horizontalFit: true,
+        gallery: {
+            enabled: true
+        }
 
-
-
-    //---------------------------------------------
-    // Counter 
-    //---------------------------------------------
-
-    $('.statistic-counter').counterUp({
-        delay: 10,
-        time: 2000
     });
 
     // main-menu-scroll
