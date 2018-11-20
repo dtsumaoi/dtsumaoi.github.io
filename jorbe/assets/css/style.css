@@ -498,7 +498,7 @@ input::-ms-input-placeholder {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    height: 80px;
+    height: 90px;
 }
 
 .main_menu_bg {
@@ -530,7 +530,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     font-family: Minnadrop;
     color: #5A605A;
-    padding-bottom: 25px;
+    padding-bottom: 33px;
     background: transparent;
     border-bottom: 3px solid #5A605A;
 }
@@ -824,8 +824,8 @@ button.btn-md:hover {
 
 #productswork {
     -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -moz-column-count: 8;
+    column-count: 6;
     -webkit-column-gap: 0rem;
     -moz-column-gap: 0rem;
     column-gap: 0rem;
@@ -897,27 +897,26 @@ button.btn-md:hover {
     background: #E5DFDD;
 }
 
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-  opacity: 0;
-  -webkit-backface-visibility: hidden;
-  /* ideally, transition speed should match zoom duration */
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+.mfp-with-zoom .mfp-container, .mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
     opacity: 1;
 }
+
 .mfp-with-zoom.mfp-ready.mfp-bg {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container,
-.mfp-with-zoom.mfp-removing.mfp-bg {
-  opacity: 0;
+.mfp-with-zoom.mfp-removing .mfp-container, .mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
 }
 
 /*====================================================================
@@ -936,7 +935,7 @@ button.btn-md:hover {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    height: 100px;
+    height: 300px;
     display: inline-block;
     width: 100%;
     overflow: hidden;
