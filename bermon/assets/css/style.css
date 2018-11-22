@@ -824,8 +824,8 @@ button.btn-md:hover {
 
 #productswork {
     -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -moz-column-count: 8;
+    column-count: 6;
     -webkit-column-gap: 0rem;
     -moz-column-gap: 0rem;
     column-gap: 0rem;
